@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberWithEvenNumberOfDigits", "NumberWithEvenNumberOfDigits.csproj", "{7D0DB8CA-CE2C-47C1-B4B5-F7E75571626C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestEvenNumberOfDigits", "..\XUnitTestEvenNumberOfDigits\XUnitTestEvenNumberOfDigits.csproj", "{C1C0D8BA-71E2-489B-85B8-4C754BAD02F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7D0DB8CA-CE2C-47C1-B4B5-F7E75571626C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D0DB8CA-CE2C-47C1-B4B5-F7E75571626C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D0DB8CA-CE2C-47C1-B4B5-F7E75571626C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1C0D8BA-71E2-489B-85B8-4C754BAD02F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1C0D8BA-71E2-489B-85B8-4C754BAD02F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1C0D8BA-71E2-489B-85B8-4C754BAD02F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1C0D8BA-71E2-489B-85B8-4C754BAD02F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
