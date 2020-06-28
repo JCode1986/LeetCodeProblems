@@ -8,7 +8,7 @@ namespace RunningSumArray.Classes
     public class MyRunningSumArray
     {
         /// <summary>
-        /// Returns a running sum in array
+        /// Creates a new array and returns a running sum
         /// </summary>
         /// <param name="nums">array</param>
         /// <returns>array</returns>
@@ -22,6 +22,20 @@ namespace RunningSumArray.Classes
                 result[i] = runningSum; 
             }
             return result;
+        }
+
+        /// <summary>
+        /// Mutates array and returns with running sum
+        /// </summary>
+        /// <param name="nums"></param>
+        /// <returns></returns>
+        public static int[] MutateArrayRunningSum(int[] nums)
+        {
+            for (int i = 1; i < nums.Length; i++)
+            { 
+                nums[i] += nums[i - 1];
+            }
+            return nums;
         }
     }
 }
