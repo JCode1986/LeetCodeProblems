@@ -39,8 +39,12 @@ Explanation: Running sum is obtained as follows: [1, 1+1, 1+1+1, 1+1+1+1, 1+1+1+
 ---
 
 ### Approach & Efficiency
+* Have a running sum variable, and a result array for the running sums
+* Iterate through array; update the running sum by adding every element, place this running sum in the result array
+* Return result array
 
 ### Big O
+Iterating through every element in array, and creating a new array with n elements.
 
 | Time | Space |
 | :----------- | :----------- |
