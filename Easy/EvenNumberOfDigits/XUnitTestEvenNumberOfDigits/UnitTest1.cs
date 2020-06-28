@@ -17,5 +17,17 @@ namespace XUnitTestEvenNumberOfDigits
             int actual = EvenNumberOfDigits.FindEvenNumberOfDigits(numbers);
             Assert.Equal(expected, actual);
         }
+
+        [Theory]
+        [InlineData(new int[] { 12, 345, 2, 6, 7896 }, 2)]
+        [InlineData(new int[] { 555, 901, 482, 1771 }, 1)]
+        [InlineData(new int[] { 5555, 9012, 4822, 1771 }, 4)]
+        [InlineData(new int[] { 555, 901, 482, 177 }, 0)]
+
+        public void LinqReturnsCorrectNumberOfEvenNumberedDigits(int[] numbers, int expected)
+        {
+            int actual = EvenNumberOfDigits.LinqSolution(numbers);
+            Assert.Equal(expected, actual);
+        }
     }
 }

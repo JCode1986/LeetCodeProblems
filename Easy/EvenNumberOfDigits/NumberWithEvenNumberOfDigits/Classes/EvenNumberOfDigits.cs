@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace NumberWithEvenNumberOfDigits.Classes
@@ -14,14 +15,24 @@ namespace NumberWithEvenNumberOfDigits.Classes
         public static int FindEvenNumberOfDigits(int[] nums)
         {
             int count = 0;
-            for (int i = 0; i < nums.Length; i++)
+            foreach (int number in nums)
             {
-                if (Convert.ToString(nums[i]).Length % 2 == 0)
+                if (number.ToString().Length % 2 == 0)
                 {
                     count++;
                 }
             }
             return count;
+        }
+
+        /// <summary>
+        /// One liner linq query solution
+        /// </summary>
+        /// <param name="nums">array</param>
+        /// <returns>int</returns>
+        public static int LinqSolution(int[] nums)
+        {
+            return nums.Count(x => x.ToString().Length % 2 == 0);
         }
     }
 }
