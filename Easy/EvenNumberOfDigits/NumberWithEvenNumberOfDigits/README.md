@@ -36,9 +36,13 @@ Given an array nums of integers, return how many of them contain an even number 
 ---
 
 ### Approach & Efficiency
-
+* Have an incrementing counter if number of digits are even
+* Iterate through every element in the array, converting elements into strings, and checking the length (modulos %) if even or odd
+* Increment counter if n % 2 == 0 (even)
+* Return counter
 
 ### Big O
+Iterating through every element of array
 
 | Time | Space |
 | :----------- | :----------- |
