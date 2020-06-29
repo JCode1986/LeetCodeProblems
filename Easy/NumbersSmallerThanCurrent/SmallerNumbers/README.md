@@ -42,7 +42,11 @@ For nums[4]=3 there exist three smaller numbers than it (1, 2 and 2).
 ---
 
 ### Approach & Efficiency
-
+* Instantiate a dictionary, a result array, and sort out the input array
+* Iterate through the sorted array, and add the element as the key, and the index as the value
+* Iterate through input array, and obtain the value from the dictionary by using the element from the input array
+* Put the obtained value from the key to the result array
+* Return array
 
 ### Big O
 
