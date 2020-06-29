@@ -38,6 +38,10 @@ Explanation: Since x1=2, x2=5, x3=1, y1=3, y2=4, y3=7 then the answer is [2,3,5,
 ---
 
 ### Approach & Efficiency
+* Instantiate a list
+* Iterate half the length of the input array
+* Add the first element to the list from the input array, and then add the half of the length plus current index. This will shuffle back from the first half of the array, and the second half of the array.
+* Return the newly shuffled list, and convert into array. 
 
 ### Big O
 
