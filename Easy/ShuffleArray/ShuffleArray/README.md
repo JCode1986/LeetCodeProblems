@@ -28,7 +28,7 @@ Explanation: Since x1=2, x2=5, x3=1, y1=3, y2=4, y3=7 then the answer is [2,3,5,
 #### Example 3:  
 | Input | Expected Output |
 | :----------- | :----------- |
-| [ 1, 2, 1, 2 ], n = 2 | [ 1,2,1,2 ] |
+| [ 1, 1, 2, 2 ], n = 2 | [ 1, 2, 1, 2 ] |
 
 ### Constraints:
 * 1 <= n <= 500
