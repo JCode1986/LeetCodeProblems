@@ -14,28 +14,13 @@ namespace ShuffleArray.Classes
         /// <returns>int[]; zipped array</returns>
         public static int[] Shuffle(int[] nums, int n)
         {
-            int[] x = new int[n];
-            int[] y = new int[n];
             List<int> shuffledArray = new List<int>();
 
             for (int i = 0; i < n; i++)
             {
-                x[i] = nums[i];
+                shuffledArray.Add(nums[i]);
+                shuffledArray.Add(nums[n + i]);
             }
-
-            int j = 0;
-            for (int i = n; i < nums.Length; i++)
-            {
-                y[j] = nums[i];
-                j++;
-            }
-
-            for (int i = 0; i < x.Length; i++)
-            {
-                shuffledArray.Add(x[i]);
-                shuffledArray.Add(y[i]);
-            }
-
             return shuffledArray.ToArray();
         }
     }
