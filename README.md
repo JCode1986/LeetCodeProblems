@@ -12,5 +12,6 @@
 * [1365. How Many Numbers Are Smaller Than the Current Number](https://github.com/JCode1986/LeetCodeProblems/tree/master/Easy/NumbersSmallerThanCurrent)
 * [1470. Shuffle the Array](https://github.com/JCode1986/LeetCodeProblems/tree/master/Easy/ShuffleArray)
 * [1431. Kids With the Greatest Number of Candies](https://github.com/JCode1986/LeetCodeProblems/tree/master/Easy/NumberOfCandies)
+* [1342. Number of Steps to Reduce a Number to Zero]()
 
 </details>
