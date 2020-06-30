@@ -15,8 +15,6 @@ Given a non-negative integer num, return the number of steps to reduce it to zer
 | :----------- | :----------- |
 | 14 | 6 |
 
-Input: num = 14
-Output: 6
 ##### Explanation: 
 Step 1) 14 is even; divide by 2 and obtain 7.   
 Step 2) 7 is odd; subtract 1 and obtain 6.  
