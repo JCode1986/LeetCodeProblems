@@ -32,6 +32,15 @@ Three characters from `S` that `J` has.
 ---
 
 ### Approach & Efficiency
+* Solution 1
+  * Have a counter
+  * Check every stone and iterate through the jewels, checking if they match
+  * Increment counter if the stone is a jewel
+  * Return counter
+* Solution 2
+  * Have a counter, and add all the stones into a `hash set`.
+  * Iterate through jewels, and check it a jewel is in the hash set, and increment counter
+  * Return counter
 
 ### Big O
 
