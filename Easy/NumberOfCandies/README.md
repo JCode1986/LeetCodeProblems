@@ -14,7 +14,7 @@ For each kid check if there is a way to distribute extraCandies among the kids s
 
 #### Example 1:
 | Input (candies, extraCandies) | Expected Output |
-| :----------- | :----------- | :----------- |
+| :----------- | :----------- |
 | [ 2, 3, 5, 1, 3 ], 3   | [ true, true, true, false, true ]  |
 
 #### Explanation:   
@@ -26,7 +26,7 @@ Kid 5 has 3 candies and if he or she receives at least 2 extra candies will have
 
 #### Example 2:
 | Input (candies, extraCandies) | Expected Output |
-| :----------- | :----------- | :----------- |
+| :----------- |  :----------- |
 | [ 4, 2, 1, 1, 2 ], 1   | [ true, false, false, false, false ]  |
 
 #### Explanation:   
@@ -34,7 +34,7 @@ There is only 1 extra candy, therefore only kid 1 will have the greatest number 
 
 #### Example 3:
 | Input (candies, extraCandies) | Expected Output |
-| :----------- | :----------- | :----------- |
+| :----------- | :----------- |
 | [ 12, 1, 12 ], 10   | [ true, false, true ]  |
 
 ### Constraints:  
@@ -45,9 +45,13 @@ There is only 1 extra candy, therefore only kid 1 will have the greatest number 
 ---
 
 ### Approach & Efficiency
+* Have a `greatest` variable, to obtain kid with highest amount of candies
+* Instantiate an array to store booleans
+* Iterate through kids, and store the kid with the highest amount candies in `greatest` 
+* Iterate through kids again, and if the kid with candies + extra candies is greater than or equal to `greatest`, then add true to bool array. Otherwise add false.
+* Return bool array
 
 ### Big O
-Iterating through every element of array
 
 | Time | Space |
 | :----------- | :----------- |
