@@ -1,4 +1,5 @@
-﻿using System;
+﻿using JewelsAndStones.Classes;
+using System;
 
 namespace JewelsAndStones
 {
@@ -7,6 +8,8 @@ namespace JewelsAndStones
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine(MyJewelsAndStones.NumJewelsInStones("aA", "aBbAA"));
+
         }
     }
 }
