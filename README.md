@@ -2,7 +2,7 @@
 
 *Author: Joseph Hangarter*
 
-### Data Strucutres and Algorithm problems that were completed in LeetCode:
+### Data Strucutres and Algorithm problems that were completed in LeetCode that has more likes than dislikes.
 
 <details>
 <summary>Easy</summary>
@@ -16,6 +16,7 @@
 * [771. Jewels and Stones](https://github.com/JCode1986/LeetCodeProblems/tree/master/Easy/JewelsAndStones)
 * [1281. Subtract the Product and Sum of Digits of an Integer](https://github.com/JCode1986/LeetCodeProblems/tree/master/Easy/SubtractProductAndSum)
 * [1351. Count Negative Numbers in a Sorted Matrix](https://github.com/JCode1986/LeetCodeProblems/tree/master/Easy/NegativeNumbersInMatrix)
+* [1436. Destination City]()
 
 </details>
 
