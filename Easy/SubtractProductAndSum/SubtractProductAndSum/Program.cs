@@ -1,9 +1,6 @@
-﻿using JewelsAndStones.Classes;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System;
 
-namespace JewelsAndStones
+namespace SubtractProductAndSum
 {
     class Program
     {
