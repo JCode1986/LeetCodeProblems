@@ -45,6 +45,9 @@ Step 4) 1 is odd; subtract 1 and obtain 0.
 ---
 
 ### Approach & Efficiency
+* Have a counter variable
+* Utilizing a while loop, if the integer is not 0, check if the number is odd or even. If odd then deduct 1, otherwise divide by2
+* Increment counter and return
 
 ### Big O
 
