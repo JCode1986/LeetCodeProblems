@@ -30,7 +30,7 @@ Return the number of negative numbers in grid.
 | :----------- | :----------- |
 | [[1,-1],[-1,-1]] | 3 |
 
-#### Example 3:  
+#### Example 4:  
 | Input | Expected Output |
 | :----------- | :----------- |
 | [[-1]] | 1 |
@@ -44,11 +44,14 @@ Return the number of negative numbers in grid.
 ---
 
 ### Approach & Efficiency
-
+* Have a counter variable
+* Two loops for outer and inner array
+* If integer is less than 0; increment counter by 1
+* Return counter;
 
 ### Big O
 
 | Time | Space |
 | :----------- | :----------- |
-| O(n) | O(n) |
+| O(n) | O(0) |
 

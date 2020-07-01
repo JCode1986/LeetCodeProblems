@@ -36,6 +36,9 @@ Result = 32 - 11 = 21
 ---
 
 ### Approach & Efficiency
+* Have a variable for `product` set to 1 and `sum` set to 0
+* Iterate through array, and get product & sum of elements in array
+* Return the product minus the sum
 
 ### Big O
 
