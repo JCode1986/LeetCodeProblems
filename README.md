@@ -15,6 +15,17 @@
 * [1342. Number of Steps to Reduce a Number to Zero](https://github.com/JCode1986/LeetCodeProblems/tree/master/Easy/StepsToReduceNumberToZero)
 * [771. Jewels and Stones](https://github.com/JCode1986/LeetCodeProblems/tree/master/Easy/JewelsAndStones)
 * [1281. Subtract the Product and Sum of Digits of an Integer](https://github.com/JCode1986/LeetCodeProblems/tree/master/Easy/SubtractProductAndSum)
-* [1351. Count Negative Numbers in a Sorted Matrix]()
+* [1351. Count Negative Numbers in a Sorted Matrix](https://github.com/JCode1986/LeetCodeProblems/tree/master/Easy/NegativeNumbersInMatrix)
 
 </details>
+
+<details>
+<summary>Medium</summary>
+
+</details>
+
+<details>
+<summary>Hard</summary>
+
+</details>
+
