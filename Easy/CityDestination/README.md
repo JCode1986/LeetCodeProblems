@@ -49,7 +49,10 @@ Clearly the destination city is "A".
 ---
 
 ### Approach & Efficiency
-
+* Instantiate a hash set
+* Iterate through sub-arrays, and add every first element (city a) to hash set
+* Iterate again from the sub-array, and check every second element (city b) if first element (city a) is not in hash set
+* If not in hash set return city b
 
 ### Big O
 

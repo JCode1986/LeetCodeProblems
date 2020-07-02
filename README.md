@@ -16,7 +16,7 @@
 * [771. Jewels and Stones](https://github.com/JCode1986/LeetCodeProblems/tree/master/Easy/JewelsAndStones)
 * [1281. Subtract the Product and Sum of Digits of an Integer](https://github.com/JCode1986/LeetCodeProblems/tree/master/Easy/SubtractProductAndSum)
 * [1351. Count Negative Numbers in a Sorted Matrix](https://github.com/JCode1986/LeetCodeProblems/tree/master/Easy/NegativeNumbersInMatrix)
-* [1436. Destination City]()
+* [1436. Destination City](https://github.com/JCode1986/LeetCodeProblems/tree/master/Easy/CityDestination)
 
 </details>
 
