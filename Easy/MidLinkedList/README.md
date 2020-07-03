@@ -40,10 +40,13 @@ Since the list has two middle nodes with values 3 and 4, we return the second on
 ---
 
 ### Approach & Efficiency
+* Have 2 nodes, one slow node, and one fast node
+* Iterate through linkedlist, moving the fast node twice as fast as the slow node
+* When the fast node is null, return slow node
 
 ### Big O
 
 | Time | Space |
 | :----------- | :----------- |
-| O(n) | O(n) |
+| O(n) | O(1) |
 
