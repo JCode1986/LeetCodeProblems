@@ -37,6 +37,10 @@ Explanation: Running sum is obtained as follows: [1, 1+1, 1+1+1, 1+1+1+1, 1+1+1+
 ---
 
 ### Approach & Efficiency
+* Instantiate a dictionary and a hash set.
+* Iterate through array, and add every element as the key into the dictionary. A counter will be represented as the value. Increment counter if element is present in dictionary.
+* Iterate through dictionary, and check if the value (counter) is in the hash set. Add the value to the hash set if value is not preset. Return false, if value is present.
+* Return true, when all iteration for dictionary is complete.
 
 ### Big O
 
