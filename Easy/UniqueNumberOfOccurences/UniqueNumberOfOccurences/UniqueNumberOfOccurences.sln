@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniqueNumberOfOccurences", "UniqueNumberOfOccurences.csproj", "{5EE45F5A-7E2E-4D0E-995A-A1854BB839DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestUniqueOccurences", "..\XUnitTestUniqueOccurences\XUnitTestUniqueOccurences.csproj", "{6DBD6FF9-CFA3-44AB-AD95-6ABE5F3F108E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EE45F5A-7E2E-4D0E-995A-A1854BB839DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE45F5A-7E2E-4D0E-995A-A1854BB839DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE45F5A-7E2E-4D0E-995A-A1854BB839DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE45F5A-7E2E-4D0E-995A-A1854BB839DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DBD6FF9-CFA3-44AB-AD95-6ABE5F3F108E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DBD6FF9-CFA3-44AB-AD95-6ABE5F3F108E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DBD6FF9-CFA3-44AB-AD95-6ABE5F3F108E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DBD6FF9-CFA3-44AB-AD95-6ABE5F3F108E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A2BDA35-6FE0-430A-A899-F643E84274B6}
+	EndGlobalSection
+EndGlobal
