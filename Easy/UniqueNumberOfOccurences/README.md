@@ -23,8 +23,6 @@ The value 1 has 3 occurrences, 2 has 2 and 3 has 1. No two values have the same 
 | :----------- | :----------- |
 | [1,2] | false |
 
-Explanation: Running sum is obtained as follows: [1, 1+1, 1+1+1, 1+1+1+1, 1+1+1+1+1].
-
 #### Example 3:  
 | Input | Expected Output |
 | :----------- | :----------- |
