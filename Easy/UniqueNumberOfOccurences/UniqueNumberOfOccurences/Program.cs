@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Text;
 
-namespace MiddleLinkedList
+namespace UniqueNumberOfOccurences
 {
     class Program
     {
