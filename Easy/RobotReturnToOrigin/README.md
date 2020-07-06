@@ -33,6 +33,9 @@ The robot moves left twice. It ends up two "moves" to the left of the origin. We
 ---
 
 ### Approach & Efficiency
+* Have a counter for vertical moves and horizontal moves
+* Increment counters for vertical and horizontal when moving a certain direction, and decrement for the opposite direction.
+* Return true, if vertical and horizontal moves are 0. Otherwise return false.
 
 ### Big O
 
