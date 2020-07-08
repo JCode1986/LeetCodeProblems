@@ -46,7 +46,9 @@ Return true if and only if the given array A is monotonic.
 ---
 
 ### Approach & Efficiency
-
+* Have 2 booleans for incrementing values in array and decrementing values in array
+* Check if current element in the array is lesser or greater to the next element, and update boolean variable to false accordingly
+* Return true if one of the incrementing or decrementing booleans is true
 
 ### Big O
 
