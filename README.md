@@ -21,7 +21,7 @@
 * [1207. Unique Number of Occurrences](https://github.com/JCode1986/LeetCodeProblems/tree/master/Easy/UniqueNumberOfOccurences)
 * [657. Robot Return to Origin](https://github.com/JCode1986/LeetCodeProblems/tree/master/Easy/RobotReturnToOrigin)
 * [965. Univalued Binary Tree](https://github.com/JCode1986/LeetCodeProblems/tree/master/Easy/UnivaluedBinaryTree)
-* [896. Monotonic Array]()
+* [896. Monotonic Array](https://github.com/JCode1986/LeetCodeProblems/tree/master/Easy/MonotonicArray)
 
 
 </details>
