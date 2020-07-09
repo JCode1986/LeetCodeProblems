@@ -25,7 +25,10 @@ You may assume that the array is non-empty and the majority element always exist
 ---
 
 ### Approach & Efficiency
-
+* Have 2 variables for the most seen element (result) and a counter for the most seen element
+* Instantiate a dictionary - Iterate through array and add element as key, and how many it times it appears as a counter but not setting to our counter variable.
+* Iterate through dictionary, and compare values (times it appeared) to counter variable. If value is greater than counter then update counter, and update result variable to the key (element).
+* Return result. 
 
 ### Big O
 
