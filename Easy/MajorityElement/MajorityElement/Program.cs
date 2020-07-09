@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 
-namespace UnivaluedBinaryTree
+namespace MajorityElement
 {
     class Program
     {
