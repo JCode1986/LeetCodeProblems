@@ -31,7 +31,11 @@ Each letter in the magazine string can only be used once in your ransom note.
 ---
 
 ### Approach & Efficiency
-
+* Instantiate a dictionary
+* Add every character as the key from magazine to dictionary, and have a counter for how many times the character appears as the value
+* Iterate through ransom note, if the character is present, decrement the counter
+* If character is not present or counter is 0, return false
+* Otherwise return true
 
 ### Big O
 
