@@ -24,7 +24,7 @@
 * [896. Monotonic Array](https://github.com/JCode1986/LeetCodeProblems/tree/master/Easy/MonotonicArray)
 * [169. Majority Element](https://github.com/JCode1986/LeetCodeProblems/tree/master/Easy/MajorityElement)
 * [383. Ransom Note](https://github.com/JCode1986/LeetCodeProblems/tree/master/Easy/RansomNote)
-* [160. Intersection of Two Linked Lists]()
+* [160. Intersection of Two Linked Lists](https://github.com/JCode1986/LeetCodeProblems/tree/master/Easy/IntersectionLinkedList)
 
 
 </details>
