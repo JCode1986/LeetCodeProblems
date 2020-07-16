@@ -36,5 +36,15 @@ namespace SingleNumber.Classes
             }
             return 0;
         }
+
+        /// <summary>
+        /// single line solution with linq query and XOR operator
+        /// </summary>
+        /// <param name="nums"></param>
+        /// <returns></returns>
+        public static int SingleNumberNoExtraSpace(int[] nums)
+        {
+            return nums.Aggregate(0, (a, b) => a ^ b);
+        }
     }
 }
