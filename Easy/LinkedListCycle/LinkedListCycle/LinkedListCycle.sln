@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListCycle", "LinkedListCycle.csproj", "{952D19D3-71A7-4760-8F65-CA6DDB325F97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestLinkedListCycle", "..\XUnitTestLinkedListCycle\XUnitTestLinkedListCycle.csproj", "{ADEE90D1-20FA-41A0-88DB-F7707D94CA86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{952D19D3-71A7-4760-8F65-CA6DDB325F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{952D19D3-71A7-4760-8F65-CA6DDB325F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{952D19D3-71A7-4760-8F65-CA6DDB325F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{952D19D3-71A7-4760-8F65-CA6DDB325F97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADEE90D1-20FA-41A0-88DB-F7707D94CA86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADEE90D1-20FA-41A0-88DB-F7707D94CA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADEE90D1-20FA-41A0-88DB-F7707D94CA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADEE90D1-20FA-41A0-88DB-F7707D94CA86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC9FA429-93E5-462D-8994-262D6F0AEDBB}
+	EndGlobalSection
+EndGlobal
