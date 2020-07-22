@@ -33,6 +33,7 @@
 
 <details>
 <summary>Medium</summary>
+* [287. Find the Duplicate Number]()
 
 </details>
 
