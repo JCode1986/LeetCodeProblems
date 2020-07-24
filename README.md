@@ -33,7 +33,8 @@
 
 <details>
 <summary>Medium</summary>
-* [287. Find the Duplicate Number]()
+
+* [287. Find the Duplicate Number](https://github.com/JCode1986/LeetCodeProblems/tree/master/Medium/FindDuplicateInArrayMedium)
 
 </details>
 
