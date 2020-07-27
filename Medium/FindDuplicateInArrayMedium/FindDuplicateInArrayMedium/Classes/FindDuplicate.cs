@@ -11,7 +11,7 @@ namespace FindDuplicateInArrayMedium.Classes
 		/// </summary>
 		/// <param name="nums">int[]</param>
 		/// <returns>int</returns>
-		public int FindDup(int[] nums)
+		public static int FindDup(int[] nums)
 		{
 			if (nums.Length > 1)
 			{
