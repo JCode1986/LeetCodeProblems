@@ -33,5 +33,39 @@ namespace FindDuplicateInArrayMedium.Classes
 			}
 			return -1;
 		}
+
+		/// <summary>
+		/// Returns the single element with duplicates in array utilizing binary search
+		/// </summary>
+		/// <param name="nums">int[]</param>
+		/// <returns>int</returns>
+		public static int FindDupBinary(int[] nums)
+        {
+			int low = 1;
+			int high = nums[nums.Length - 1];
+
+			while (low < high)
+            {
+				int mid = low + (high - low) / 2;
+				int count = 0;
+
+				for (int i = 0; i < nums.Length; i++)
+                {
+					if (nums[i] <= mid)
+                    {
+						count += 1;
+                    }
+                }
+				if (count <= mid)
+                {
+					low = mid + 1;
+                }
+                else
+                {
+					high = mid;
+                }
+            }
+			return low;
+        }
 	}
 }
