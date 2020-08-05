@@ -21,7 +21,8 @@ Given an array nums, write a function to move all 0's to the end of it while mai
 ---
 
 ### Approach & Efficiency
-
+* Iterate through array, and find zeroes
+* If element is zero, iterate from that element to the end of the array, and swapping non zeroes with current index
 
 ### Big O
 
