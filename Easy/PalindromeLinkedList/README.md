@@ -14,8 +14,6 @@ Given a singly linked list, determine if it is a palindrome.
 | :----------- | :----------- |
 | 1->2  | false |
 
-Explanation: Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4].
-
 #### Example 2:  
 | Input | Expected Output |
 | :----------- | :----------- |
@@ -24,9 +22,13 @@ Explanation: Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4].
 ---
 
 ### Approach & Efficiency
+* Instantiate an empty list
+* Iterate through linked list and add every node value to list
+* Iterate through linked list, and iterate through list with values starting at the end (length - 1)
+* Compare node values and list values
+* Return false if values does not match, otherwise return true
 
 ### Big O
-Iterating through every element in array, and creating a new array with n elements.
 
 | Time | Space |
 | :----------- | :----------- |
